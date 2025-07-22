@@ -16,6 +16,7 @@ a {
 .header-wrap {
   padding: 0 20px;
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 .header {
@@ -47,13 +48,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 .nav-links {
   display: flex;
   font-size: 17px;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
 }
 
 .nav-links a {
